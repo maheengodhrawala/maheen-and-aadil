@@ -505,16 +505,16 @@ body {
 }
 
 .couple-weds-callout {
-  margin-top: 26px;
+  margin-top: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
+  gap: 4px;
 }
 
 .couple-weds-name {
-  font-size: 48px;
-  line-height: 1.1;
+  font-size: 84px;
+  line-height: 1.05;
   font-weight: 300;
   color: #a67d2b;
   font-family: "NewFonts", Arial, sans-serif;
@@ -524,10 +524,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
-  width: 200px;
-  font-size: 28px;
-  line-height: 1.1;
+  gap: 16px;
+  width: 280px;
+  font-size: 40px;
+  line-height: 1.05;
   color: #a67d2b;
   font-family: "NewFonts", Arial, sans-serif;
 }
@@ -536,7 +536,7 @@ body {
 .couple-weds-divider::after {
   content: "";
   flex: 1;
-  height: 1px;
+  height: 1.5px;
   background: linear-gradient(to right, transparent, #a67d2b);
 }
 
@@ -546,13 +546,13 @@ body {
 
 @media screen and (max-width: 639px) {
   .couple-weds-callout {
-    margin-top: 20px;
+    margin-top: 24px;
   }
   .couple-weds-name {
-    font-size: 38px;
+    font-size: 64px;
   }
   .couple-weds-divider {
-    width: 165px;
-    font-size: 24px;
+    width: 220px;
+    font-size: 32px;
   }
 }
