@@ -484,3 +484,22 @@ body {
 #weiAudioBtn {
   will-change: opacity;
 }
+
+/* Elders Blessing Section */
+.elders-blessing {
+  margin-top: 32px;
+  font-size: 34px;
+  line-height: 1.25;
+  font-weight: 300;
+  color: #a67d2b;
+  font-family: "NewFonts", Arial, sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 639px) {
+  .elders-blessing {
+    font-size: 27px;
+    line-height: 1.25;
+    margin-top: 24px;
+  }
+}
