@@ -52,11 +52,12 @@
       overlay.style.pointerEvents = "none";
       setTimeout(function () {
         overlay.style.display = "none";
-      }, 1400);
+      }, 600);
 
       // Show and play video
       videoWrap.classList.add("wei-video-in");
       try {
+        video.playbackRate = 1.6;
         var vp = video.play();
         if (vp && typeof vp.catch === "function") vp.catch(function () {});
       } catch (err) {
@@ -83,7 +84,7 @@
       videoWrap.classList.add("wei-video-out");
       setTimeout(function () {
         videoWrap.style.display = "none";
-      }, 1400);
+      }, 600);
 
       // Show floating audio button
       audioBtn.style.visibility = "visible";

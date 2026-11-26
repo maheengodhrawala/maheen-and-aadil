@@ -32,7 +32,7 @@ window.dataLayer = window.dataLayer || [];
           el.classList.add("t-records_visible");
         });
         sessionStorage.setItem("visited", "y");
-      }, 400);
+      }, 100);
     }
     document.addEventListener("DOMContentLoaded", t_setvisRecs);
   }
