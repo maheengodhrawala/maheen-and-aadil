@@ -66,6 +66,9 @@
     if (window.WeddingRsvp && typeof window.WeddingRsvp.init === "function") {
       window.WeddingRsvp.init();
     }
+    if (window.WeddingLocation && typeof window.WeddingLocation.init === "function") {
+      window.WeddingLocation.init();
+    }
 
     initTildaStat();
   }

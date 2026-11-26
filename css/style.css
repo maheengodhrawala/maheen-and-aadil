@@ -5222,3 +5222,76 @@
     top: 1715px !important;
   }
 }
+
+/* Schedule of Events: 3-item timeline sizing & single-line time alignment */
+#rec2487446103 .t396__artboard,
+#rec2487446103 .t396__carrier,
+#rec2487446103 .t396__filter {
+  height: 410px !important;
+}
+
+#rec2487446103 .tn-elem[data-elem-id="1772803062504"] .tn-atom,
+#rec2487446103 .tn-elem[data-elem-id="1772803288793000003"] .tn-atom,
+#rec2487446103 .tn-elem[data-elem-id="1782315588274000002"] .tn-atom {
+  white-space: nowrap;
+}
+
+#rec2487446103 .tn-elem[data-elem-id="1782315588274000002"] {
+  width: 140px !important;
+  left: calc(50% - 600px + 435px) !important;
+}
+
+#rec2487446103 .tn-elem[data-elem-id="1782315605037000003"] {
+  width: 185px !important;
+}
+
+@media screen and (max-width: 1199px) {
+  #rec2487446103 .tn-elem[data-elem-id="1782315588274000002"] {
+    left: calc(50% - 480px + 318px) !important;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  #rec2487446103 .tn-elem[data-elem-id="1782315588274000002"] {
+    left: calc(50% - 320px + 158px) !important;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #rec2487446103 .tn-elem[data-elem-id="1782315588274000002"] {
+    left: calc(50% - 240px + 78px) !important;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #rec2487446103 .tn-elem[data-elem-id="1782315588274000002"] {
+    width: 120px !important;
+    left: calc(50% - 160px + 4px) !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1782315605037000003"] {
+    width: 110px !important;
+  }
+}
+
+/* Fix Schedule torn parchment bottom edge & Location dual-venue spacing */
+#rec2487446103 .tn-elem[data-elem-id="1782315340571000001"] {
+  top: 155px !important;
+}
+
+#rec2487446153 .t396__artboard,
+#rec2487446153 .t396__carrier,
+#rec2487446153 .t396__filter {
+  height: 465px !important;
+}
+
+#rec2487446153 .tn-elem[data-elem-id="1772804808869"] {
+  top: 154px !important;
+}
+
+#rec2487446153 .tn-elem[data-elem-id="1772813480591000001"] {
+  top: 190px !important;
+}
+
+#rec2487446153 .tn-elem[data-elem-id="1782312310182000001"] {
+  top: 215px !important;
+}
